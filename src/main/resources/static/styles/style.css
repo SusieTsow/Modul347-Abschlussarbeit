@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.topnav a {
+    float: left;
+    color: #423d3d;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #a8abab;
+    color: white;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #eeeeee;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+    background-color: #423d3d;
+    padding-block: 1rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
